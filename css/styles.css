@@ -1,7 +1,42 @@
-
-@media all and (min-width: 1300px){
+@media all and (min-width: 1700px){
   .imgsize {
     width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  p {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  #sidebar {
+    float: left;
+    width: 10%;
+    height: 4500px;
+    font-size: 25px;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+  }
+  .column {
+    float: left;
+    width: 17%;
+    padding: 10px;
+  }
+}
+
+@media all and (min-width: 1300px) and (max-width: 1700px) {
+  .imgsize {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   p {
     font-size: 35px;
@@ -25,7 +60,10 @@
 
 @media all and (min-width: 768px) and (max-width: 1300px) {
   .imgsize {
-    width: 400px
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   p {
     font-size: 25px;
