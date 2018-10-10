@@ -115,6 +115,9 @@
  }
 
 @media all and (max-width: 480px) {
+  html {
+    background-color: yellow;
+  }
   .imgsize {
     width: 150px
   }
