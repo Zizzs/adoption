@@ -12,6 +12,15 @@
   h1 {
     font-size: 70px;
   }
+  #sidebar {
+    float: left;
+    width: 10%;
+    height: 4500px;
+    font-size: 25px;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1300px) {
@@ -27,6 +36,15 @@
   }
   h1 {
     font-size: 50px;
+  }
+  #sidebar {
+    float: left;
+    width: 11%;
+    height: 3100px;
+    font-size: 20px;
+    background-color: black;
+    color: yellow;
+    text-align: center;
   }
  }
 
@@ -45,6 +63,15 @@
   h1 {
     font-size: 40px;
   }
+  #sidebar {
+    float: left;
+    width: 12%;
+    height: 2200px;
+    font-size: 15px;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+  }
  }
 
 @media all and (max-width: 480px) {
@@ -61,5 +88,14 @@
   }
   h1 {
     font-size: 30px;
+  }
+  #sidebar {
+    float: left;
+    width: 13%;
+    height: 1700px;
+    font-size: 10px;
+    background-color: black;
+    color: yellow;
+    text-align: center;
   }
 }
